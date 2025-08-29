@@ -1,4 +1,4 @@
-## Delay-Locked-Loop
+# Delay-Locked-Loop
 
 # Abstract
 This project focuses on the design and implementation of a Delay Locked Loop (DLL), a crucial component in modern digital communication and high-speed integrated circuits. Delay-Locked Loops (DLLs) are negative feedback circuits that achieve phase alignment of an output signal to an input reference signal ensuring robust synchronization in systems such as clock distribution networks and clock-data recovery circuits without requiring an oscillator.
