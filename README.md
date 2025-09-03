@@ -69,13 +69,13 @@ To explore the basic design of Delay-Locked Loop, which has applications in gene
 - Simulations were performed at 1 GHz and 2 GHz frequencies with noise, wherein results based on complete Timing Diagram, Steady State Phase Errors, Eye Diagrams and Cross-Over points were plotted and verified.
 - For the future scope, certain modifications can be undertaken to enhance the performance of the DLL:
 
-1. To upgrade this design to a edge combining, frequency multiplying DLL
+  1. To upgrade this design to a edge combining, frequency multiplying DLL
 
-2. To make the DLL circuit to reliably work at frequencies higher than 2GHz by introducing some high bandwidth logic
+  2. To make the DLL circuit to reliably work at frequencies higher than 2GHz by introducing some high bandwidth logic
 
-3. To design the layout and design it as an IP Block
+  3. To design the layout and design it as an IP Block
 
-4. To design the circuit in smaller node such as 45nm or 32nm to achieve faster operation
+  4. To design the circuit in smaller node such as 45nm or 32nm to achieve faster operation
 
 
 
