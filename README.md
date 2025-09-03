@@ -57,15 +57,25 @@ To explore the basic design of Delay-Locked Loop, which has applications in gene
 
 - Max. delay due to delay line = 411ps
 
+# Results
+- 2GHz in the presence of power-supply noise.
+  
+- The Counter Type DLL reliably locks at frequencies of 1GHz simulated at 1250 C and the SAR Type DLL locks at frequencies of 2GHz simulated at 270 C in the presence of power-supply noise in the Vdd line and noise at the inputs.
+  
+- Through the plots, we can observe that the circuit tracks the phase of the reference signal, provides the necessary delay to the Input-Clock signal to keep it phase aligned with the reference signal.
 
+# Conclusion and Future Scope
+- We successfully designed and implemented two types of Delay Locked Loop (DLL), one based on counter and one based on SAR, at transistor level.
+- Simulations were performed at 1 GHz and 2 GHz frequencies with noise, wherein results based on complete Timing Diagram, Steady State Phase Errors, Eye Diagrams and Cross-Over points were plotted and verified.
+- For the future scope, certain modifications can be undertaken to enhance the performance of the DLL:
 
+1. To upgrade this design to a edge combining, frequency multiplying DLL
 
+2. To make the DLL circuit to reliably work at frequencies higher than 2GHz by introducing some high bandwidth logic
 
+3. To design the layout and design it as an IP Block
 
-
-
-
-
+4. To design the circuit in smaller node such as 45nm or 32nm to achieve faster operation
 
 
 
